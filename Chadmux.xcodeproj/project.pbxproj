@@ -1,0 +1,1254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE8976F4CDD2605E33D70D1 /* PhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114475BEDC7A2B3B1E34E888 /* PhotoTests.swift */; };
+		1EA6A6CE8313203F6F86307C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD99F1CE11C6CBBB949B04A /* Foundation.framework */; };
+		285E8A0E99D13D3ACF4E3AC4 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 861CACFA0CE022427336D17A /* SwiftTerm */; };
+		3BE3345C02BEBBE1F6F1DC32 /* MacTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCD5099AEF6FED394BFD44F /* MacTransport.swift */; };
+		433BC7CA47406B8FC709809F /* SSHIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35F4E3B52C417852479A24 /* SSHIntegrationTests.swift */; };
+		5BB2384F8BFE9E66DAFB14E1 /* ChadmuxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA26E0BE369C7B26B0811CE /* ChadmuxUITests.swift */; };
+		66583CCD4833B6EB11FA87B8 /* SSHPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813DFA80B150403315E0AF1 /* SSHPrimitives.swift */; };
+		6F0A62D2EDBF68247E166601 /* TerminalSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245A9CFFFBA83166CFD196F9 /* TerminalSurface.swift */; };
+		75D203DFB070226F1E243C51 /* PhotoMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FF1831E32784F07723B8B4 /* PhotoMedia.swift */; };
+		76E760B0B0754A742BC01AC4 /* VoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D905FC9D72F54C4D4893B /* VoiceTests.swift */; };
+		7FD7032F314AF1A8B8B6F4CD /* ConnectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5E933A11A8878229C8536D /* ConnectionStore.swift */; };
+		8C4CCBAA0E0760E6B178012E /* NativeScrollFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D28DA46A31CB7EA92A788B /* NativeScrollFixture.swift */; };
+		938F55253C8603CFB1B1053C /* LoopbackAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D4459343970610CE28024 /* LoopbackAPI.swift */; };
+		7DA5D7818AEFB95D047A1DF6 /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8F5F339D616B7A68CED38D /* ComposerView.swift */; };
+		A59E03A2E03E815B0464ABE0 /* TerminalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082B672E4B55AE5275E33067 /* TerminalScreen.swift */; };
+		3AF8D69823AAE8AF9FA3F1DF /* PlatformShims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2963F6F3DF254AFE7723622F /* PlatformShims.swift */; };
+		05670068BA8464F77B3F734E /* SSHProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069245B91FFEFCB65D81C20 /* SSHProbe.swift */; };
+		F81F4DF43C9FF4D53E5AD89A /* ViewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783AC8449AA95A3A63D6D92A /* ViewFixtures.swift */; };
+		91572C2EB4ECF5196ACDDFB5 /* TerminalFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD0B02E60400EEB4FB359F /* TerminalFont.swift */; };
+		2E593862694FFD454B49CA1E /* SessionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E14FFD026857612A4BD6395 /* SessionViews.swift */; };
+		94DFE32F887D596BE54D9D28 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C441E225F40960BA9C112B4 /* MessageComposer.swift */; };
+		9CAB98FE4224714B13182E45 /* ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2746810995FE6C0909BBC571 /* ConnectionTests.swift */; };
+		A20E8BF138516CAD60274C38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD99F1CE11C6CBBB949B04A /* Foundation.framework */; };
+		A4CAE5C1952D96D8643D72A5 /* SSHPrimitivesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B598D6ED571B3BD103FAD7 /* SSHPrimitivesTests.swift */; };
+		A4E692B59AA302078EE2B0DA /* VoiceDictation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740E59D7D92E0A10B25373B7 /* VoiceDictation.swift */; };
+		AC7DAEA95F87308D49204853 /* NativeTerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63830EC67CBAF9D8EABDF319 /* NativeTerminalView.swift */; };
+		AE8997C85F3E37C99C952257 /* DraftRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63254CFFB159307A15D04602 /* DraftRecovery.swift */; };
+		AF51B84CE9D5ED42A1BBF56A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD99F1CE11C6CBBB949B04A /* Foundation.framework */; };
+		B18AD0B31329AEA36C42B83B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1FD7DBA13A5CD649A4380D /* ContentView.swift */; };
+		A988434AA88AE0E6FE41B83B /* ClaudeTmuxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291DC484D90090842E3618EC /* ClaudeTmuxTests.swift */; };
+		4C9A331D15898A3B31C51A32 /* TerminalFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36DA726337FC6AB74A1F2F /* TerminalFontTests.swift */; };
+		10B03E7CA785207C1F421283 /* HostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DADF1C4B17DB6EFAD7ED8 /* HostTests.swift */; };
+		B727A7C7928F86F988BB8E5F /* ComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E7B70020F27C114C9836A /* ComposerTests.swift */; };
+		CF7A41ED1EC859EF8D54BEB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92E18487FF14DC2EA3FFA0E /* Assets.xcassets */; };
+		C7C31CE21A25F28617D55B98 /* ClaudeTmux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B5D91C2290FEEC1E84AF4 /* ClaudeTmux.swift */; };
+		E93D9F2D02988F11A3404B57 /* HostProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F444DFDE489FE19F905FF89 /* HostProfiles.swift */; };
+		B407BC530AFE32D90264C575 /* HostSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D014D87E51009C999CA263 /* HostSettings.swift */; };
+		D00BAD893AB2B1A04D030C91 /* TmuxSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F13CB1B9339782F6CCCD30 /* TmuxSessions.swift */; };
+		DABA86F2BCBC713874CD5774 /* Citadel in Frameworks */ = {isa = PBXBuildFile; productRef = 56AA6FE9010387974F19E527 /* Citadel */; };
+		F15E1547993ADF73B17BB280 /* RecoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9751133BE1876C5211F1099B /* RecoveryTests.swift */; };
+		FA95E5C29642E4333CEB8348 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6988874304A3107ADDEAA3D2 /* PhotoPicker.swift */; };
+		FB60DE73C535A2555597952A /* ChadmuxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030181B40BDEA334C2E8BDAA /* ChadmuxApp.swift */; };
+		6272C4DF9082401F4ED852CA /* SSHPrimitives.swift in Sources */ = {isa = PBXBuildFile; fileRef = D813DFA80B150403315E0AF1 /* SSHPrimitives.swift */; };
+		3FF9F3B0A322FD29A40310F7 /* ConnectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5E933A11A8878229C8536D /* ConnectionStore.swift */; };
+		DAA9CD3479D7F95B0F6F83EC /* ClaudeTmux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339B5D91C2290FEEC1E84AF4 /* ClaudeTmux.swift */; };
+		5B2F9750A000EAD9778AD44A /* LoopbackAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047D4459343970610CE28024 /* LoopbackAPI.swift */; };
+		C1D9B197B7C1D67C81BA0908 /* DraftRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63254CFFB159307A15D04602 /* DraftRecovery.swift */; };
+		F2DA52A00F25BA8ED8F736FF /* PhotoMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FF1831E32784F07723B8B4 /* PhotoMedia.swift */; };
+		0ACAC229DA90E9415DE525A3 /* MessageComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C441E225F40960BA9C112B4 /* MessageComposer.swift */; };
+		834173F00BBCC79E765AD38D /* TmuxSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F13CB1B9339782F6CCCD30 /* TmuxSessions.swift */; };
+		F32370C663C42218DBD531CF /* VoiceDictation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740E59D7D92E0A10B25373B7 /* VoiceDictation.swift */; };
+		6A207771CE99E8CD43CC99C9 /* HostProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F444DFDE489FE19F905FF89 /* HostProfiles.swift */; };
+		F1C81B2BE5CEC2CF91620D9C /* MacTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCD5099AEF6FED394BFD44F /* MacTransport.swift */; };
+		DB0AA3D1EA6770B6BA3ED836 /* TerminalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082B672E4B55AE5275E33067 /* TerminalScreen.swift */; };
+		110570DA808E9A259E914B81 /* MacNativeTerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1EF8B99C180ADBEFA74FFF /* MacNativeTerminalView.swift */; };
+		0EF910A814E452058DC09C40 /* ChadmuxMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F292DC1AC4419DD85A68FA6 /* ChadmuxMacApp.swift */; };
+		94DD575E136F2C53218039C3 /* ClaudeTmuxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291DC484D90090842E3618EC /* ClaudeTmuxTests.swift */; };
+		71FF3B4886C5643920711D26 /* ComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4E7B70020F27C114C9836A /* ComposerTests.swift */; };
+		13529A064E950C5C7BD606C1 /* ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2746810995FE6C0909BBC571 /* ConnectionTests.swift */; };
+		F84813C40F59CDB92ADA9CCA /* HostTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37DADF1C4B17DB6EFAD7ED8 /* HostTests.swift */; };
+		D01B04F0CFAB6F96F1DCBDE2 /* VoiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9D905FC9D72F54C4D4893B /* VoiceTests.swift */; };
+		870B13187C1C6CFE68F707F9 /* Citadel in Frameworks */ = {isa = PBXBuildFile; productRef = 5009DBD0859D6CC9C1F46437 /* Citadel */; };
+		54CEA0201D66846C10C8CFF2 /* SwiftTerm in Frameworks */ = {isa = PBXBuildFile; productRef = 33A147CA4EBA52E4E066078B /* SwiftTerm */; };
+		B61FE5F140CE287098A98A4E /* TestImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E69B083A09D893D1200D93 /* TestImages.swift */; };
+		BFD4E08B944D462177BC3FC4 /* TestImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E69B083A09D893D1200D93 /* TestImages.swift */; };
+		07422251CF5D27C314FE70D9 /* SSHIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35F4E3B52C417852479A24 /* SSHIntegrationTests.swift */; };
+		1CAB7793EA9863EBCFEEA34E /* MacTerminalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F32655B9414F7EF3DCF0A9 /* MacTerminalTests.swift */; };
+		5ED5D1D297B3178399CA50DB /* MacTerminalSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A416F3E0122BEC21FC89513 /* MacTerminalSurface.swift */; };
+		994639C194B13AD44655AC17 /* PlatformShims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2963F6F3DF254AFE7723622F /* PlatformShims.swift */; };
+		A4D391CA7DAB3474125559F9 /* SSHProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C069245B91FFEFCB65D81C20 /* SSHProbe.swift */; };
+		2366D4E8B4DBE04E4344DC93 /* HostSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D014D87E51009C999CA263 /* HostSettings.swift */; };
+		9A57AE8655947DAECDFAB0AB /* SSHProbeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B56429FD1CEAA6066C933 /* SSHProbeTests.swift */; };
+		5D44B58D1FD9E35E762CF067 /* SSHProbeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B56429FD1CEAA6066C933 /* SSHProbeTests.swift */; };
+		A9DBFB5E136E993E3AE96ACA /* MacStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AC032F441502C5971B154B /* MacStorageTests.swift */; };
+		1FADFCA6CF6FB470E775620E /* SessionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E14FFD026857612A4BD6395 /* SessionViews.swift */; };
+		9F3462EC093E25776C4CB7DF /* MacWorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC70924071D89BA3C2C52F53 /* MacWorkspaceView.swift */; };
+		228B48956FB981F8AB84ACF0 /* MacWindowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D0C5A03ABE15AF06006F11 /* MacWindowTests.swift */; };
+		8662BFBA9D9D76ED4E0AF669 /* NativeScrollFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D28DA46A31CB7EA92A788B /* NativeScrollFixture.swift */; };
+		55F9FA372B1D3E76502B2947 /* ChadmuxMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5889427FC73C3E8B5B0E833 /* ChadmuxMacUITests.swift */; };
+		A5B1CD5A4C008FD1E272CB1B /* ViewFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783AC8449AA95A3A63D6D92A /* ViewFixtures.swift */; };
+		7E388C0F682C8EE5591C3602 /* MacImageImport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E82C596CC631072D9835682 /* MacImageImport.swift */; };
+		93C2141055B2B446146F8489 /* MacComposerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523030041810AAEBF18D88E /* MacComposerTests.swift */; };
+		384FD45F607E11865E5153A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14ED805D6B0E550FD946C7F7 /* Assets.xcassets */; };
+		48DBCA7630923081AB843D1A /* TerminalFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AD0B02E60400EEB4FB359F /* TerminalFont.swift */; };
+		24548F77E093E0B8507428B2 /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D41DCAEF5F4713B9FDE9281C /* JetBrainsMono-Regular.ttf */; };
+		9E5CCA05493212BE0E118D99 /* JetBrainsMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F277A55FA6967693DEDCAD02 /* JetBrainsMono-Bold.ttf */; };
+		98FE3DE55B6B896C8D30F540 /* JetBrainsMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA696C167E74C66D634B7A91 /* JetBrainsMono-Italic.ttf */; };
+		D552F2EAF4E1AC954508F479 /* JetBrainsMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 139037E9CAD6C89906A60B88 /* JetBrainsMono-BoldItalic.ttf */; };
+		85204CD5166B962FD27D1905 /* JetBrainsMono-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6C0EAF7E9EFB1EF609AE08A /* JetBrainsMono-OFL.txt */; };
+		158D08D356499F9B008C8974 /* JetBrainsMono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D41DCAEF5F4713B9FDE9281C /* JetBrainsMono-Regular.ttf */; };
+		A8480E8453D8F7C771253173 /* JetBrainsMono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F277A55FA6967693DEDCAD02 /* JetBrainsMono-Bold.ttf */; };
+		1EC520ACC67BCB9AB34E18DE /* JetBrainsMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA696C167E74C66D634B7A91 /* JetBrainsMono-Italic.ttf */; };
+		BBD4171FCBE77D3D5FE127A9 /* JetBrainsMono-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 139037E9CAD6C89906A60B88 /* JetBrainsMono-BoldItalic.ttf */; };
+		8A1AD3ACD701733A73A96DD7 /* JetBrainsMono-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6C0EAF7E9EFB1EF609AE08A /* JetBrainsMono-OFL.txt */; };
+		B0CA6273CF22922AD9A2F8B2 /* TerminalFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36DA726337FC6AB74A1F2F /* TerminalFontTests.swift */; };
+		0C0CC334A60AEEB195CC694F /* MacTerminalDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5928A25C244D3AE0E85E16D5 /* MacTerminalDrop.swift */; };
+		D1C7A7100000000000000002 /* MacDictation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C7A7100000000000000001 /* MacDictation.swift */; };
+		684EEF3A1ABFC2774C920272 /* MacTerminalDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008876D6222AD097F2B84437 /* MacTerminalDropTests.swift */; };
+		D1C7A7100000000000000004 /* MacDictationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C7A7100000000000000003 /* MacDictationTests.swift */; };
+		A2AFFBD73F2CE23EFD964C71 /* MacTerminalDropSSHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AF82BC63723A85892F10C0 /* MacTerminalDropSSHTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		694270C8E1CE4BFF0EA42742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431E55F6C4AF70D4B71D72A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2AE9628D9D887C042AB8CF;
+			remoteInfo = Chadmux;
+		};
+		97407D24ED66A3A59C993AD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431E55F6C4AF70D4B71D72A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2AE9628D9D887C042AB8CF;
+			remoteInfo = Chadmux;
+		};
+		346D90524C14450A3F3EA933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431E55F6C4AF70D4B71D72A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E740D43DC17AA34DA376A8;
+			remoteInfo = ChadmuxMac;
+		};
+		5AD8D129288082D46E729775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431E55F6C4AF70D4B71D72A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6E740D43DC17AA34DA376A8;
+			remoteInfo = ChadmuxMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030181B40BDEA334C2E8BDAA /* ChadmuxApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChadmuxApp.swift; sourceTree = "<group>"; };
+		047D4459343970610CE28024 /* LoopbackAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoopbackAPI.swift; sourceTree = "<group>"; };
+		0A9D905FC9D72F54C4D4893B /* VoiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceTests.swift; sourceTree = "<group>"; };
+		291DC484D90090842E3618EC /* ClaudeTmuxTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClaudeTmuxTests.swift; sourceTree = "<group>"; };
+		8D36DA726337FC6AB74A1F2F /* TerminalFontTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TerminalFontTests.swift; sourceTree = "<group>"; };
+		F37DADF1C4B17DB6EFAD7ED8 /* HostTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HostTests.swift; sourceTree = "<group>"; };
+		0C4E7B70020F27C114C9836A /* ComposerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComposerTests.swift; sourceTree = "<group>"; };
+		114475BEDC7A2B3B1E34E888 /* PhotoTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoTests.swift; sourceTree = "<group>"; };
+		1C35F4E3B52C417852479A24 /* SSHIntegrationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSHIntegrationTests.swift; sourceTree = "<group>"; };
+		245A9CFFFBA83166CFD196F9 /* TerminalSurface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TerminalSurface.swift; sourceTree = "<group>"; };
+		24B598D6ED571B3BD103FAD7 /* SSHPrimitivesTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSHPrimitivesTests.swift; sourceTree = "<group>"; };
+		2746810995FE6C0909BBC571 /* ConnectionTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectionTests.swift; sourceTree = "<group>"; };
+		339B5D91C2290FEEC1E84AF4 /* ClaudeTmux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ClaudeTmux.swift; sourceTree = "<group>"; };
+		5F444DFDE489FE19F905FF89 /* HostProfiles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HostProfiles.swift; sourceTree = "<group>"; };
+		84D014D87E51009C999CA263 /* HostSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HostSettings.swift; sourceTree = "<group>"; };
+		47F13CB1B9339782F6CCCD30 /* TmuxSessions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TmuxSessions.swift; sourceTree = "<group>"; };
+		48F7FDBBEEED1977F6CD4225 /* Chadmux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chadmux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5E933A11A8878229C8536D /* ConnectionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectionStore.swift; sourceTree = "<group>"; };
+		4CD99F1CE11C6CBBB949B04A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63254CFFB159307A15D04602 /* DraftRecovery.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DraftRecovery.swift; sourceTree = "<group>"; };
+		63830EC67CBAF9D8EABDF319 /* NativeTerminalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeTerminalView.swift; sourceTree = "<group>"; };
+		64FF1831E32784F07723B8B4 /* PhotoMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoMedia.swift; sourceTree = "<group>"; };
+		693FB650C13BAD88C6BE7259 /* ChadmuxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChadmuxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6988874304A3107ADDEAA3D2 /* PhotoPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		740E59D7D92E0A10B25373B7 /* VoiceDictation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VoiceDictation.swift; sourceTree = "<group>"; };
+		7A8F5F339D616B7A68CED38D /* ComposerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		082B672E4B55AE5275E33067 /* TerminalScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TerminalScreen.swift; sourceTree = "<group>"; };
+		2963F6F3DF254AFE7723622F /* PlatformShims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformShims.swift; sourceTree = "<group>"; };
+		C069245B91FFEFCB65D81C20 /* SSHProbe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSHProbe.swift; sourceTree = "<group>"; };
+		783AC8449AA95A3A63D6D92A /* ViewFixtures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewFixtures.swift; sourceTree = "<group>"; };
+		59AD0B02E60400EEB4FB359F /* TerminalFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TerminalFont.swift; sourceTree = "<group>"; };
+		1E14FFD026857612A4BD6395 /* SessionViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SessionViews.swift; sourceTree = "<group>"; };
+		7C441E225F40960BA9C112B4 /* MessageComposer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageComposer.swift; sourceTree = "<group>"; };
+		7EA26E0BE369C7B26B0811CE /* ChadmuxUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChadmuxUITests.swift; sourceTree = "<group>"; };
+		9751133BE1876C5211F1099B /* RecoveryTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecoveryTests.swift; sourceTree = "<group>"; };
+		A90B764C65E470ACDAC13B4B /* ChadmuxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChadmuxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1FD7DBA13A5CD649A4380D /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDCD5099AEF6FED394BFD44F /* MacTransport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacTransport.swift; sourceTree = "<group>"; };
+		D813DFA80B150403315E0AF1 /* SSHPrimitives.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSHPrimitives.swift; sourceTree = "<group>"; };
+		E5D28DA46A31CB7EA92A788B /* NativeScrollFixture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeScrollFixture.swift; sourceTree = "<group>"; };
+		F92E18487FF14DC2EA3FFA0E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F292DC1AC4419DD85A68FA6 /* ChadmuxMacApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChadmuxMacApp.swift; sourceTree = "<group>"; };
+		CBDD33CCC19DA41D1831A9B6 /* ChadmuxMac.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = ChadmuxMac.entitlements; sourceTree = "<group>"; };
+		CF1EF8B99C180ADBEFA74FFF /* MacNativeTerminalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacNativeTerminalView.swift; sourceTree = "<group>"; };
+		B0A006D5C53C6C9548AF991E /* Chadmux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chadmux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF223732F8788A6313FDE6A1 /* ChadmuxMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChadmuxMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E69B083A09D893D1200D93 /* TestImages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TestImages.swift; sourceTree = "<group>"; };
+		07F32655B9414F7EF3DCF0A9 /* MacTerminalTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacTerminalTests.swift; sourceTree = "<group>"; };
+		8A416F3E0122BEC21FC89513 /* MacTerminalSurface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacTerminalSurface.swift; sourceTree = "<group>"; };
+		ED2B56429FD1CEAA6066C933 /* SSHProbeTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SSHProbeTests.swift; sourceTree = "<group>"; };
+		09AC032F441502C5971B154B /* MacStorageTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacStorageTests.swift; sourceTree = "<group>"; };
+		AC70924071D89BA3C2C52F53 /* MacWorkspaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacWorkspaceView.swift; sourceTree = "<group>"; };
+		58D0C5A03ABE15AF06006F11 /* MacWindowTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacWindowTests.swift; sourceTree = "<group>"; };
+		D5889427FC73C3E8B5B0E833 /* ChadmuxMacUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChadmuxMacUITests.swift; sourceTree = "<group>"; };
+		0650D1751F1BE81A559CB14B /* ChadmuxMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChadmuxMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E82C596CC631072D9835682 /* MacImageImport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacImageImport.swift; sourceTree = "<group>"; };
+		3523030041810AAEBF18D88E /* MacComposerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacComposerTests.swift; sourceTree = "<group>"; };
+		14ED805D6B0E550FD946C7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D41DCAEF5F4713B9FDE9281C /* JetBrainsMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JetBrainsMono-Regular.ttf; sourceTree = "<group>"; };
+		F277A55FA6967693DEDCAD02 /* JetBrainsMono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JetBrainsMono-Bold.ttf; sourceTree = "<group>"; };
+		AA696C167E74C66D634B7A91 /* JetBrainsMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JetBrainsMono-Italic.ttf; sourceTree = "<group>"; };
+		139037E9CAD6C89906A60B88 /* JetBrainsMono-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JetBrainsMono-BoldItalic.ttf; sourceTree = "<group>"; };
+		D6C0EAF7E9EFB1EF609AE08A /* JetBrainsMono-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = JetBrainsMono-OFL.txt; sourceTree = "<group>"; };
+		5928A25C244D3AE0E85E16D5 /* MacTerminalDrop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacTerminalDrop.swift; sourceTree = "<group>"; };
+		D1C7A7100000000000000001 /* MacDictation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacDictation.swift; sourceTree = "<group>"; };
+		008876D6222AD097F2B84437 /* MacTerminalDropTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacTerminalDropTests.swift; sourceTree = "<group>"; };
+		D1C7A7100000000000000003 /* MacDictationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacDictationTests.swift; sourceTree = "<group>"; };
+		B4AF82BC63723A85892F10C0 /* MacTerminalDropSSHTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacTerminalDropSSHTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A4A754BAF97D4C4D7BDB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF51B84CE9D5ED42A1BBF56A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4318C22357C6337C7A5F85FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20E8BF138516CAD60274C38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEB5F06FE07DB64AA2EE0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA6A6CE8313203F6F86307C /* Foundation.framework in Frameworks */,
+				DABA86F2BCBC713874CD5774 /* Citadel in Frameworks */,
+				285E8A0E99D13D3ACF4E3AC4 /* SwiftTerm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF7FD9293980D840AA9D2874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870B13187C1C6CFE68F707F9 /* Citadel in Frameworks */,
+				54CEA0201D66846C10C8CFF2 /* SwiftTerm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DBCB224D5990D672BDAE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF5A9FAEB6C27475F56513C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF30BD3512B54ED6C551A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79917F6D09E0C85B8ABD3751 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3472E4B2A11CC15A532C246A /* ChadmuxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EA26E0BE369C7B26B0811CE /* ChadmuxUITests.swift */,
+			);
+			name = ChadmuxUITests;
+			path = ChadmuxUITests;
+			sourceTree = "<group>";
+		};
+		3ADB3D6758CCEEACFEC65E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F7FDBBEEED1977F6CD4225 /* Chadmux.app */,
+				693FB650C13BAD88C6BE7259 /* ChadmuxUITests.xctest */,
+				A90B764C65E470ACDAC13B4B /* ChadmuxTests.xctest */,
+				B0A006D5C53C6C9548AF991E /* Chadmux.app */,
+				CF223732F8788A6313FDE6A1 /* ChadmuxMacTests.xctest */,
+				0650D1751F1BE81A559CB14B /* ChadmuxMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79917F6D09E0C85B8ABD3751 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4CD99F1CE11C6CBBB949B04A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D20F14475A07F3F245CAD02 /* ChadmuxTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED2B56429FD1CEAA6066C933 /* SSHProbeTests.swift */,
+				31E69B083A09D893D1200D93 /* TestImages.swift */,
+				24B598D6ED571B3BD103FAD7 /* SSHPrimitivesTests.swift */,
+				1C35F4E3B52C417852479A24 /* SSHIntegrationTests.swift */,
+				2746810995FE6C0909BBC571 /* ConnectionTests.swift */,
+				291DC484D90090842E3618EC /* ClaudeTmuxTests.swift */,
+				8D36DA726337FC6AB74A1F2F /* TerminalFontTests.swift */,
+				F37DADF1C4B17DB6EFAD7ED8 /* HostTests.swift */,
+				0C4E7B70020F27C114C9836A /* ComposerTests.swift */,
+				114475BEDC7A2B3B1E34E888 /* PhotoTests.swift */,
+				0A9D905FC9D72F54C4D4893B /* VoiceTests.swift */,
+				9751133BE1876C5211F1099B /* RecoveryTests.swift */,
+			);
+			name = ChadmuxTests;
+			path = ChadmuxTests;
+			sourceTree = "<group>";
+		};
+		C3261C0DEED1E27EC90862E3 /* Chadmux */ = {
+			isa = PBXGroup;
+			children = (
+				622D872A20C0A947DE65CFBB /* Fonts */,
+				CF1EF8B99C180ADBEFA74FFF /* MacNativeTerminalView.swift */,
+				030181B40BDEA334C2E8BDAA /* ChadmuxApp.swift */,
+				CD1FD7DBA13A5CD649A4380D /* ContentView.swift */,
+				245A9CFFFBA83166CFD196F9 /* TerminalSurface.swift */,
+				D813DFA80B150403315E0AF1 /* SSHPrimitives.swift */,
+				4B5E933A11A8878229C8536D /* ConnectionStore.swift */,
+				CDCD5099AEF6FED394BFD44F /* MacTransport.swift */,
+				047D4459343970610CE28024 /* LoopbackAPI.swift */,
+				339B5D91C2290FEEC1E84AF4 /* ClaudeTmux.swift */,
+				5F444DFDE489FE19F905FF89 /* HostProfiles.swift */,
+				84D014D87E51009C999CA263 /* HostSettings.swift */,
+				47F13CB1B9339782F6CCCD30 /* TmuxSessions.swift */,
+				7A8F5F339D616B7A68CED38D /* ComposerView.swift */,
+				082B672E4B55AE5275E33067 /* TerminalScreen.swift */,
+				2963F6F3DF254AFE7723622F /* PlatformShims.swift */,
+				C069245B91FFEFCB65D81C20 /* SSHProbe.swift */,
+				783AC8449AA95A3A63D6D92A /* ViewFixtures.swift */,
+				59AD0B02E60400EEB4FB359F /* TerminalFont.swift */,
+				1E14FFD026857612A4BD6395 /* SessionViews.swift */,
+				7C441E225F40960BA9C112B4 /* MessageComposer.swift */,
+				64FF1831E32784F07723B8B4 /* PhotoMedia.swift */,
+				6988874304A3107ADDEAA3D2 /* PhotoPicker.swift */,
+				740E59D7D92E0A10B25373B7 /* VoiceDictation.swift */,
+				63254CFFB159307A15D04602 /* DraftRecovery.swift */,
+				F92E18487FF14DC2EA3FFA0E /* Assets.xcassets */,
+				63830EC67CBAF9D8EABDF319 /* NativeTerminalView.swift */,
+				E5D28DA46A31CB7EA92A788B /* NativeScrollFixture.swift */,
+			);
+			name = Chadmux;
+			path = Chadmux;
+			sourceTree = "<group>";
+		};
+		E8E8D7FBAD192372879D6F8F = {
+			isa = PBXGroup;
+			children = (
+				1FC01B54A549CE2E96EC9406 /* ChadmuxMacTests */,
+				3ADB3D6758CCEEACFEC65E63 /* Products */,
+				0CF30BD3512B54ED6C551A7D /* Frameworks */,
+				C3261C0DEED1E27EC90862E3 /* Chadmux */,
+				3472E4B2A11CC15A532C246A /* ChadmuxUITests */,
+				7D20F14475A07F3F245CAD02 /* ChadmuxTests */,
+				8744840231AF936E341CE64E /* ChadmuxMac */,
+				5B3108B9EA074566F3224A2F /* ChadmuxMacUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		8744840231AF936E341CE64E /* ChadmuxMac */ = {
+			isa = PBXGroup;
+			children = (
+				5928A25C244D3AE0E85E16D5 /* MacTerminalDrop.swift */,
+				D1C7A7100000000000000001 /* MacDictation.swift */,
+				14ED805D6B0E550FD946C7F7 /* Assets.xcassets */,
+				9E82C596CC631072D9835682 /* MacImageImport.swift */,
+				AC70924071D89BA3C2C52F53 /* MacWorkspaceView.swift */,
+				8A416F3E0122BEC21FC89513 /* MacTerminalSurface.swift */,
+				6F292DC1AC4419DD85A68FA6 /* ChadmuxMacApp.swift */,
+				CBDD33CCC19DA41D1831A9B6 /* ChadmuxMac.entitlements */,
+			);
+			path = ChadmuxMac;
+			sourceTree = "<group>";
+		};
+		1FC01B54A549CE2E96EC9406 /* ChadmuxMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4AF82BC63723A85892F10C0 /* MacTerminalDropSSHTests.swift */,
+				008876D6222AD097F2B84437 /* MacTerminalDropTests.swift */,
+				D1C7A7100000000000000003 /* MacDictationTests.swift */,
+				3523030041810AAEBF18D88E /* MacComposerTests.swift */,
+				58D0C5A03ABE15AF06006F11 /* MacWindowTests.swift */,
+				09AC032F441502C5971B154B /* MacStorageTests.swift */,
+				07F32655B9414F7EF3DCF0A9 /* MacTerminalTests.swift */,
+			);
+			path = ChadmuxMacTests;
+			sourceTree = "<group>";
+		};
+		5B3108B9EA074566F3224A2F /* ChadmuxMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5889427FC73C3E8B5B0E833 /* ChadmuxMacUITests.swift */,
+			);
+			path = ChadmuxMacUITests;
+			sourceTree = "<group>";
+		};
+		622D872A20C0A947DE65CFBB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D41DCAEF5F4713B9FDE9281C /* JetBrainsMono-Regular.ttf */,
+				F277A55FA6967693DEDCAD02 /* JetBrainsMono-Bold.ttf */,
+				AA696C167E74C66D634B7A91 /* JetBrainsMono-Italic.ttf */,
+				139037E9CAD6C89906A60B88 /* JetBrainsMono-BoldItalic.ttf */,
+				D6C0EAF7E9EFB1EF609AE08A /* JetBrainsMono-OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F7B299A5C52B06AB9E4887 /* ChadmuxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE3A420702591FCBB452192 /* Build configuration list for PBXNativeTarget "ChadmuxTests" */;
+			buildPhases = (
+				4E42B85237297FDBB872DC4E /* Sources */,
+				4318C22357C6337C7A5F85FF /* Frameworks */,
+				6207B143C0B6D1BCC47EF03C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7E74418F0555BBC80753FC8 /* PBXTargetDependency */,
+			);
+			name = ChadmuxTests;
+			productName = ChadmuxTests;
+			productReference = A90B764C65E470ACDAC13B4B /* ChadmuxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACF13B7F396CF670AC0D646B /* ChadmuxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E06F9C35CD5E5B6F2FB67F4 /* Build configuration list for PBXNativeTarget "ChadmuxUITests" */;
+			buildPhases = (
+				EABD450994793A049B9C38B8 /* Sources */,
+				24A4A754BAF97D4C4D7BDB33 /* Frameworks */,
+				936A6C0FD52C076D31D9E4A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843ADD13A6E3F6EF13D6744D /* PBXTargetDependency */,
+			);
+			name = ChadmuxUITests;
+			productName = ChadmuxUITests;
+			productReference = 693FB650C13BAD88C6BE7259 /* ChadmuxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DB2AE9628D9D887C042AB8CF /* Chadmux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC3D47025A9C481F81144A5 /* Build configuration list for PBXNativeTarget "Chadmux" */;
+			buildPhases = (
+				6B2BE417F44AE791F137D3E9 /* Sources */,
+				DDEB5F06FE07DB64AA2EE0DC /* Frameworks */,
+				96C60599D4DF143170BD5027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chadmux;
+			packageProductDependencies = (
+				56AA6FE9010387974F19E527 /* Citadel */,
+				861CACFA0CE022427336D17A /* SwiftTerm */,
+			);
+			productName = Chadmux;
+			productReference = 48F7FDBBEEED1977F6CD4225 /* Chadmux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6E740D43DC17AA34DA376A8 /* ChadmuxMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D6C713D73A6EC121C76535 /* Build configuration list for PBXNativeTarget "ChadmuxMac" */;
+			buildPhases = (
+				B92FBF123D59BA5BFEEB4609 /* Sources */,
+				BF7FD9293980D840AA9D2874 /* Frameworks */,
+				7647BF256A39748865C162A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChadmuxMac;
+			packageProductDependencies = (
+				5009DBD0859D6CC9C1F46437 /* Citadel */,
+				33A147CA4EBA52E4E066078B /* SwiftTerm */,
+			);
+			productName = ChadmuxMac;
+			productReference = B0A006D5C53C6C9548AF991E /* Chadmux.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13F07E59A087E0C243C5EC68 /* ChadmuxMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58BBCAC212F479D2988B7E2C /* Build configuration list for PBXNativeTarget "ChadmuxMacTests" */;
+			buildPhases = (
+				FE272B968930767F27CF43FA /* Sources */,
+				17DBCB224D5990D672BDAE12 /* Frameworks */,
+				E87DC0D58E219CE99E5F85E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8E7CA8E6FA4EC5D83833890 /* PBXTargetDependency */,
+			);
+			name = ChadmuxMacTests;
+			productName = ChadmuxMacTests;
+			productReference = CF223732F8788A6313FDE6A1 /* ChadmuxMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C365CEE9AD46853F81C21D12 /* ChadmuxMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F82B6748C55DE212946069D /* Build configuration list for PBXNativeTarget "ChadmuxMacUITests" */;
+			buildPhases = (
+				6B73B3AFA27EB852BB6F207E /* Sources */,
+				0DF5A9FAEB6C27475F56513C /* Frameworks */,
+				8B41B9AA28D968BA7C33395B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				599A975CAD0A51F0142FDD8E /* PBXTargetDependency */,
+			);
+			name = ChadmuxMacUITests;
+			productName = ChadmuxMacUITests;
+			productReference = 0650D1751F1BE81A559CB14B /* ChadmuxMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431E55F6C4AF70D4B71D72A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 16C4C23BFFE6D8666B061881 /* Build configuration list for PBXProject "Chadmux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8E8D7FBAD192372879D6F8F;
+			minimizedProjectReferenceProxies = 0;
+			packageReferences = (
+				4BB620166572B3B2598CE8C9 /* XCRemoteSwiftPackageReference "Citadel" */,
+				AD08A1788E2CEA395D8C471C /* XCRemoteSwiftPackageReference "SwiftTerm" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3ADB3D6758CCEEACFEC65E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2AE9628D9D887C042AB8CF /* Chadmux */,
+				ACF13B7F396CF670AC0D646B /* ChadmuxUITests */,
+				77F7B299A5C52B06AB9E4887 /* ChadmuxTests */,
+				F6E740D43DC17AA34DA376A8 /* ChadmuxMac */,
+				13F07E59A087E0C243C5EC68 /* ChadmuxMacTests */,
+				C365CEE9AD46853F81C21D12 /* ChadmuxMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6207B143C0B6D1BCC47EF03C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		936A6C0FD52C076D31D9E4A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C60599D4DF143170BD5027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24548F77E093E0B8507428B2 /* JetBrainsMono-Regular.ttf in Resources */,
+				9E5CCA05493212BE0E118D99 /* JetBrainsMono-Bold.ttf in Resources */,
+				98FE3DE55B6B896C8D30F540 /* JetBrainsMono-Italic.ttf in Resources */,
+				D552F2EAF4E1AC954508F479 /* JetBrainsMono-BoldItalic.ttf in Resources */,
+				85204CD5166B962FD27D1905 /* JetBrainsMono-OFL.txt in Resources */,
+				CF7A41ED1EC859EF8D54BEB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7647BF256A39748865C162A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158D08D356499F9B008C8974 /* JetBrainsMono-Regular.ttf in Resources */,
+				A8480E8453D8F7C771253173 /* JetBrainsMono-Bold.ttf in Resources */,
+				1EC520ACC67BCB9AB34E18DE /* JetBrainsMono-Italic.ttf in Resources */,
+				BBD4171FCBE77D3D5FE127A9 /* JetBrainsMono-BoldItalic.ttf in Resources */,
+				8A1AD3ACD701733A73A96DD7 /* JetBrainsMono-OFL.txt in Resources */,
+				384FD45F607E11865E5153A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E87DC0D58E219CE99E5F85E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B41B9AA28D968BA7C33395B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E42B85237297FDBB872DC4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A57AE8655947DAECDFAB0AB /* SSHProbeTests.swift in Sources */,
+				B61FE5F140CE287098A98A4E /* TestImages.swift in Sources */,
+				A4CAE5C1952D96D8643D72A5 /* SSHPrimitivesTests.swift in Sources */,
+				433BC7CA47406B8FC709809F /* SSHIntegrationTests.swift in Sources */,
+				9CAB98FE4224714B13182E45 /* ConnectionTests.swift in Sources */,
+				A988434AA88AE0E6FE41B83B /* ClaudeTmuxTests.swift in Sources */,
+				4C9A331D15898A3B31C51A32 /* TerminalFontTests.swift in Sources */,
+				10B03E7CA785207C1F421283 /* HostTests.swift in Sources */,
+				B727A7C7928F86F988BB8E5F /* ComposerTests.swift in Sources */,
+				0EE8976F4CDD2605E33D70D1 /* PhotoTests.swift in Sources */,
+				76E760B0B0754A742BC01AC4 /* VoiceTests.swift in Sources */,
+				F15E1547993ADF73B17BB280 /* RecoveryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2BE417F44AE791F137D3E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB60DE73C535A2555597952A /* ChadmuxApp.swift in Sources */,
+				B18AD0B31329AEA36C42B83B /* ContentView.swift in Sources */,
+				6F0A62D2EDBF68247E166601 /* TerminalSurface.swift in Sources */,
+				66583CCD4833B6EB11FA87B8 /* SSHPrimitives.swift in Sources */,
+				7FD7032F314AF1A8B8B6F4CD /* ConnectionStore.swift in Sources */,
+				3BE3345C02BEBBE1F6F1DC32 /* MacTransport.swift in Sources */,
+				938F55253C8603CFB1B1053C /* LoopbackAPI.swift in Sources */,
+				C7C31CE21A25F28617D55B98 /* ClaudeTmux.swift in Sources */,
+				E93D9F2D02988F11A3404B57 /* HostProfiles.swift in Sources */,
+				B407BC530AFE32D90264C575 /* HostSettings.swift in Sources */,
+				D00BAD893AB2B1A04D030C91 /* TmuxSessions.swift in Sources */,
+				7DA5D7818AEFB95D047A1DF6 /* ComposerView.swift in Sources */,
+				A59E03A2E03E815B0464ABE0 /* TerminalScreen.swift in Sources */,
+				3AF8D69823AAE8AF9FA3F1DF /* PlatformShims.swift in Sources */,
+				05670068BA8464F77B3F734E /* SSHProbe.swift in Sources */,
+				F81F4DF43C9FF4D53E5AD89A /* ViewFixtures.swift in Sources */,
+				91572C2EB4ECF5196ACDDFB5 /* TerminalFont.swift in Sources */,
+				2E593862694FFD454B49CA1E /* SessionViews.swift in Sources */,
+				94DFE32F887D596BE54D9D28 /* MessageComposer.swift in Sources */,
+				75D203DFB070226F1E243C51 /* PhotoMedia.swift in Sources */,
+				FA95E5C29642E4333CEB8348 /* PhotoPicker.swift in Sources */,
+				A4E692B59AA302078EE2B0DA /* VoiceDictation.swift in Sources */,
+				AE8997C85F3E37C99C952257 /* DraftRecovery.swift in Sources */,
+				AC7DAEA95F87308D49204853 /* NativeTerminalView.swift in Sources */,
+				8C4CCBAA0E0760E6B178012E /* NativeScrollFixture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABD450994793A049B9C38B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB2384F8BFE9E66DAFB14E1 /* ChadmuxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92FBF123D59BA5BFEEB4609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C0CC334A60AEEB195CC694F /* MacTerminalDrop.swift in Sources */,
+				D1C7A7100000000000000002 /* MacDictation.swift in Sources */,
+				48DBCA7630923081AB843D1A /* TerminalFont.swift in Sources */,
+				7E388C0F682C8EE5591C3602 /* MacImageImport.swift in Sources */,
+				A5B1CD5A4C008FD1E272CB1B /* ViewFixtures.swift in Sources */,
+				8662BFBA9D9D76ED4E0AF669 /* NativeScrollFixture.swift in Sources */,
+				9F3462EC093E25776C4CB7DF /* MacWorkspaceView.swift in Sources */,
+				1FADFCA6CF6FB470E775620E /* SessionViews.swift in Sources */,
+				2366D4E8B4DBE04E4344DC93 /* HostSettings.swift in Sources */,
+				A4D391CA7DAB3474125559F9 /* SSHProbe.swift in Sources */,
+				994639C194B13AD44655AC17 /* PlatformShims.swift in Sources */,
+				5ED5D1D297B3178399CA50DB /* MacTerminalSurface.swift in Sources */,
+				6272C4DF9082401F4ED852CA /* SSHPrimitives.swift in Sources */,
+				3FF9F3B0A322FD29A40310F7 /* ConnectionStore.swift in Sources */,
+				DAA9CD3479D7F95B0F6F83EC /* ClaudeTmux.swift in Sources */,
+				5B2F9750A000EAD9778AD44A /* LoopbackAPI.swift in Sources */,
+				C1D9B197B7C1D67C81BA0908 /* DraftRecovery.swift in Sources */,
+				F2DA52A00F25BA8ED8F736FF /* PhotoMedia.swift in Sources */,
+				0ACAC229DA90E9415DE525A3 /* MessageComposer.swift in Sources */,
+				834173F00BBCC79E765AD38D /* TmuxSessions.swift in Sources */,
+				F32370C663C42218DBD531CF /* VoiceDictation.swift in Sources */,
+				6A207771CE99E8CD43CC99C9 /* HostProfiles.swift in Sources */,
+				F1C81B2BE5CEC2CF91620D9C /* MacTransport.swift in Sources */,
+				DB0AA3D1EA6770B6BA3ED836 /* TerminalScreen.swift in Sources */,
+				110570DA808E9A259E914B81 /* MacNativeTerminalView.swift in Sources */,
+				0EF910A814E452058DC09C40 /* ChadmuxMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE272B968930767F27CF43FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2AFFBD73F2CE23EFD964C71 /* MacTerminalDropSSHTests.swift in Sources */,
+				684EEF3A1ABFC2774C920272 /* MacTerminalDropTests.swift in Sources */,
+				D1C7A7100000000000000004 /* MacDictationTests.swift in Sources */,
+				B0CA6273CF22922AD9A2F8B2 /* TerminalFontTests.swift in Sources */,
+				93C2141055B2B446146F8489 /* MacComposerTests.swift in Sources */,
+				228B48956FB981F8AB84ACF0 /* MacWindowTests.swift in Sources */,
+				A9DBFB5E136E993E3AE96ACA /* MacStorageTests.swift in Sources */,
+				5D44B58D1FD9E35E762CF067 /* SSHProbeTests.swift in Sources */,
+				1CAB7793EA9863EBCFEEA34E /* MacTerminalTests.swift in Sources */,
+				07422251CF5D27C314FE70D9 /* SSHIntegrationTests.swift in Sources */,
+				BFD4E08B944D462177BC3FC4 /* TestImages.swift in Sources */,
+				94DD575E136F2C53218039C3 /* ClaudeTmuxTests.swift in Sources */,
+				71FF3B4886C5643920711D26 /* ComposerTests.swift in Sources */,
+				13529A064E950C5C7BD606C1 /* ConnectionTests.swift in Sources */,
+				F84813C40F59CDB92ADA9CCA /* HostTests.swift in Sources */,
+				D01B04F0CFAB6F96F1DCBDE2 /* VoiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B73B3AFA27EB852BB6F207E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F9FA372B1D3E76502B2947 /* ChadmuxMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843ADD13A6E3F6EF13D6744D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Chadmux;
+			target = DB2AE9628D9D887C042AB8CF /* Chadmux */;
+			targetProxy = 694270C8E1CE4BFF0EA42742 /* PBXContainerItemProxy */;
+		};
+		E7E74418F0555BBC80753FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Chadmux;
+			target = DB2AE9628D9D887C042AB8CF /* Chadmux */;
+			targetProxy = 97407D24ED66A3A59C993AD0 /* PBXContainerItemProxy */;
+		};
+		D8E7CA8E6FA4EC5D83833890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChadmuxMac;
+			target = F6E740D43DC17AA34DA376A8 /* ChadmuxMac */;
+			targetProxy = 346D90524C14450A3F3EA933 /* PBXContainerItemProxy */;
+		};
+		599A975CAD0A51F0142FDD8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6E740D43DC17AA34DA376A8 /* ChadmuxMac */;
+			targetProxy = 5AD8D129288082D46E729775 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02029C766A4B298A6B974323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.uitests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chadmux;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		109EDF81FD66B7449C35E463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chadmux.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chadmux";
+			};
+			name = Debug;
+		};
+		16F0DA0836B86EF03E76C86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos to attach to messages you send to your Mac over SSH.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Connect to your Mac over SSH for remote terminal sessions.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record speech to turn into editable message text using your Mac.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		334800B14708F31B9F2F859D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chadmux.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chadmux";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E9C164B1D6CDCAE2382E8E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.uitests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chadmux;
+			};
+			name = Debug;
+		};
+		90BD35906351A68CC054B3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DDC2EE773D97C45AC4680876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos to attach to messages you send to your Mac over SSH.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Connect to your Mac over SSH for remote terminal sessions.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record speech to turn into editable message text using your Mac.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5AA56D3F5E44D6C24025B4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6AEB511A4D9D619696D065C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_KEY_CFBundleDisplayName = Chadmux;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ChadmuxMac/ChadmuxMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record speech to turn into editable message text using your dictation host.";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.mac;
+				PRODUCT_MODULE_NAME = Chadmux;
+				PRODUCT_NAME = Chadmux;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F586E0D5D47D568CECE2C831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_KEY_CFBundleDisplayName = Chadmux;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = ChadmuxMac/ChadmuxMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Record speech to turn into editable message text using your dictation host.";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.mac;
+				PRODUCT_MODULE_NAME = Chadmux;
+				PRODUCT_NAME = Chadmux;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFD2E6CA65B96FEF89AB4C40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.mac.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chadmux.app/Contents/MacOS/Chadmux";
+			};
+			name = Debug;
+		};
+		FF99873D495293EF07E5F7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.mac.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chadmux.app/Contents/MacOS/Chadmux";
+			};
+			name = Release;
+		};
+		B3476E6FDEDC315E83F1B506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.mac.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChadmuxMac;
+			};
+			name = Debug;
+		};
+		68C93DD1898BA8472777F18E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ascinocco.chadmux.mac.uitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ChadmuxMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C4C23BFFE6D8666B061881 /* Build configuration list for PBXProject "Chadmux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AA56D3F5E44D6C24025B4A /* Debug */,
+				90BD35906351A68CC054B3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE3A420702591FCBB452192 /* Build configuration list for PBXNativeTarget "ChadmuxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334800B14708F31B9F2F859D /* Release */,
+				109EDF81FD66B7449C35E463 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E06F9C35CD5E5B6F2FB67F4 /* Build configuration list for PBXNativeTarget "ChadmuxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02029C766A4B298A6B974323 /* Release */,
+				7E9C164B1D6CDCAE2382E8E7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC3D47025A9C481F81144A5 /* Build configuration list for PBXNativeTarget "Chadmux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC2EE773D97C45AC4680876 /* Release */,
+				16F0DA0836B86EF03E76C86D /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D6C713D73A6EC121C76535 /* Build configuration list for PBXNativeTarget "ChadmuxMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F586E0D5D47D568CECE2C831 /* Release */,
+				6AEB511A4D9D619696D065C5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58BBCAC212F479D2988B7E2C /* Build configuration list for PBXNativeTarget "ChadmuxMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF99873D495293EF07E5F7C2 /* Release */,
+				EFD2E6CA65B96FEF89AB4C40 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F82B6748C55DE212946069D /* Build configuration list for PBXNativeTarget "ChadmuxMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C93DD1898BA8472777F18E /* Release */,
+				B3476E6FDEDC315E83F1B506 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4BB620166572B3B2598CE8C9 /* XCRemoteSwiftPackageReference "Citadel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orlandos-nl/Citadel.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.12.1;
+			};
+		};
+		AD08A1788E2CEA395D8C471C /* XCRemoteSwiftPackageReference "SwiftTerm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/migueldeicaza/SwiftTerm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56AA6FE9010387974F19E527 /* Citadel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BB620166572B3B2598CE8C9 /* XCRemoteSwiftPackageReference "Citadel" */;
+			productName = Citadel;
+		};
+		861CACFA0CE022427336D17A /* SwiftTerm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD08A1788E2CEA395D8C471C /* XCRemoteSwiftPackageReference "SwiftTerm" */;
+			productName = SwiftTerm;
+		};
+		5009DBD0859D6CC9C1F46437 /* Citadel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BB620166572B3B2598CE8C9 /* XCRemoteSwiftPackageReference "Citadel" */;
+			productName = Citadel;
+		};
+		33A147CA4EBA52E4E066078B /* SwiftTerm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD08A1788E2CEA395D8C471C /* XCRemoteSwiftPackageReference "SwiftTerm" */;
+			productName = SwiftTerm;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 431E55F6C4AF70D4B71D72A2 /* Project object */;
+}
